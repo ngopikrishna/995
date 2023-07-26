@@ -28,4 +28,4 @@ cv2.imshow('Closed Image', stacked_results)
 # Wait for key press and then close all windows
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-cv2.imwrite("output_images/stacked_results.jpg", stacked_results)
+cv2.imwrite("output_images/closed.jpg", stacked_results)
