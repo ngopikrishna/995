@@ -1,3 +1,11 @@
 __pycache
 .vs
 output_images/*.*
+4/face_rtacker.py
+4/superpixels.py
+5/cnn_tensorflow.py
+5/tensorflow_tips.py
+.gitattributes
+weights/7/inceptionv3/inceptionv3.pb
+weights/7/mobilenet/mobilenetv2.pb
+weights/7/resnet/resnet152.pb
