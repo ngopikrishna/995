@@ -9,3 +9,5 @@ output_images/*.*
 #weights/7/inceptionv3/inceptionv3.pb
 #weights/7/mobilenet/mobilenetv2.pb
 #weights/7/resnet/resnet152.pb
+weights/8/yolo/YOLOv5s.onnx
+*.pyc
