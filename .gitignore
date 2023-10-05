@@ -17,3 +17,4 @@ weights/9/text_detection_DB_TD500_resnet18_2021sep.onnx
 weights/9/*.onnx
 lfw/*.*
 lfw/*
+.vscode
