@@ -43,8 +43,8 @@ def visualize(input, faces):
 
         # Draw rectangles, lines, and circles on the input image
         cv2.rectangle(input, (face_box_topleft_x, face_box_topleft_y), (face_box_bottomright_x, face_box_bottomright_y), facebox_color, thickness)
-        cv2.line(input, (righteye_x, righteye_y), (lefteye_x, lefteye_y), eyeline_color, thickness)  # Eye line
-        cv2.line(input, (mouth_leftcorner_x, mouth_leftcorner_y), (mouth_rightcorner_x, mouth_rightcorner_y), mouthline_color, thickness)  # Mouth line
+        cv2.line(input, (righteye_x, righteye_y), (lefteye_x, lefteye_y), eyeline_color, thickness, lineType=cv2.FILLED)  # Eye line
+        cv2.line(input, (mouth_leftcorner_x, mouth_leftcorner_y), (mouth_rightcorner_x, mouth_rightcorner_y), mouthline_color, thickness, lineType=cv2.LINE_4)  # Mouth line
         cv2.circle(input, (nosetip_x, nosetip_y), 1, nosetip_color, thickness)  # Nosetip
 
 if __name__ == '__main__':
